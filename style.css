@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: rgba(0, 0, 0);
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* scroll */
+/* scroll */
+/* scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000000e5;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background: #000000;
+  }
+  
+  /* scroll */
+  /* scroll */
+  /* scroll */
+
+/* navbar */
+/* navbar */
+/* navbar */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 5%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+li, a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #3cc9bb;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+/* navbar */
+/* navbar */
+/* navbar */
+
+/* whoami */
+/* whoami */
+/* whoami */
+
+#whoami, #whatido, #projects, #contact {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+h1 {
+    color: #3cc9bb;
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+}
+h2 {
+    color: #3cc9bb;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+}
+
+.whoamidetail {
+    display: flex;
+    margin: 50px 100px;
+    justify-content: space-around;
+}
+
+
+.whoamidetail p {
+    color: #3cc9bb;
+}
+
+#whoami span {
+    font-size: 16px;
+}
+
+.text {
+    margin: 20px;
+    list-style: none;
+    width: 50%;
+}
+
+.img {
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+}
+
+/* whatido */
+/* whatido */
+/* whatido */
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    width: 340px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #3cc9bb;
+    border-radius: 10px;
+    color: #3cc9bb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.boxes:hover {
+    animation-duration: 3s;
+    box-shadow: 5px 10px #3cc9bb ;
+}
+
+.boxes h2 {
+  margin-bottom: 10px;
+
+}
+
+/* projects */
+/* projects */
+/* projects */
+
+button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #3cc9bb;
+    border-radius: 10px;
+    padding: 5px;
+    color: #3cc9bb;
+    background-color: transparent;
+    margin: 20px;
+}
+
+button:hover {
+    box-shadow: 1px 2px #3cc9bb ;
+    cursor: pointer;
+}
+
+
+
+
+/* contact */
+/* contact */
+/* contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #3cc9bb;
+    width: 100%;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+input {
+    border: 1px solid #3cc9bb;
+    background-color: transparent;
+    color: #3cc9bb;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-inline: 5px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+textarea {
+    border: 1px solid #3cc9bb;
+    background-color: transparent;
+    color: #3cc9bb;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-inline: 5px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#sendmessage {
+    width: 200px;
+    font-size: 20px;
+}
