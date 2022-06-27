@@ -7,12 +7,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="texture/v.svg">
     <title>Mikael Japaridze's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <ul class="nav-links">
-                <li><a href="#c">Home</a></li>
+                <li class="first"><a href="#home">Home</a></li>
                 <li><a href="#whoami">Whoami</a></li>
                 <li><a href="#whatido">What I do</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -20,18 +21,18 @@
         </ul>
     </header>
 
-    <canvas id="c"></canvas>
+    <canvas id="home"></canvas>
 
     <main>
         <div id="whoami">
-            <h1> < I'm Mikael Japaridze /> <br> <span>Web Developer, IT and Cyber Security Specialist</span></h1>
+            <h1> < I'm Mikael Japaridze /> <br> <span>Frontend Web Developer, IT and Cyber Security Specialist</span></h1>
             
             <div class="whoamidetail">
                 <ul class="text">
-                <li>● Cyber security is a challenge, if you don't protect what is important to you, you may lose everything.</li>
-                    <li>● Small businesses are limited in resources and often expect their IT staff to provide cyber security expertise, in reality, expectations are often not met, in a business that unknowingly operates at a much higher level of cyber risk.</li>
-                    <li>● I am passionate about Cyber Security and Penetration Testing. On the long journey I have come so far, I can be proud of myself and the experience, my knowledge that stands behind this long road.</li>
-                    <li>●●● Let’s Engage ●●●</li>
+                    <li>● I have 1 year of experience in Frontend Web Development, most of Javascript & React.</li>
+                    <li>● I have 2 years of experience in Cyber Security, especially Penetration Testing.</li>
+                    <li>● I have 3 years of experience in IT, most of Windows, Linux, Servers, Security Cameras, Network and System Administration.</li>
+                    <br> <li>●●● Let’s Engage ●●●</li>
                     <li>● I can offer you:</li>
                     <li>● IT Support</li>
                     <li>● Web Development</li>
@@ -139,8 +140,13 @@
 
         <div id="contact">
             <div class="contact">
-                <h2>Contact To Gmail</h2>
-                <h2><a href="#">Linkedin</a>  ●  <a href="#">Github</a></h2>
+                <h2>Do you want to contact me?</h2>
+                <h2> 
+                        ● <a class="contact-a" href="#">Linkedin</a> 
+                <br>    ● <a class="contact-a" href="#">miqajafara@gmail.com</a>
+                <br>    ● <a class="contact-a" href="#">+995 568841311</a>
+                </h2>
+
                 <form action="" method="POST" id="my-form">
                 <label for="name">Name: </label>
                 <input type="text" id="name" name="name" />
@@ -153,13 +159,13 @@
     
                 <label for="message">Message: </label>
                 <textarea name="textarea" id="message" cols="30" rows="10"></textarea>
-
                 </form>
                 <a href="#"><button id="sendmessage">Send Message</button></a>
                 <div id="status"></div>
-                <script src="contact.js"></script>
+                <script src=""></script>
             </div>
         </div>
+        
     </main>
   
 

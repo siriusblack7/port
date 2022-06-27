@@ -5,7 +5,7 @@ let renderer;
 
 function main()
 {
-    const canvas = document.querySelector('#c');
+    const canvas = document.querySelector('#home');
 
 
     scene = new THREE.Scene();
@@ -22,6 +22,7 @@ function main()
     renderer.setClearColor(0x00000, 0.0);
 
 
+    // create earthgeometry
 
     const earthgeometry = new THREE.SphereGeometry(0.6,32,32);
 
@@ -36,19 +37,21 @@ function main()
 
     scene.add(earthmesh);
 
+    // set ambientlight
 
     const ambientlight = new THREE.AmbientLight(0xffffff, 0.2);
     scene.add(ambientlight);
 
+    // set point light
 
     const pointerlight =  new THREE.PointLight(0xffffff,0.9);
 
-    // ganateba
+    // set light position
 
     pointerlight.position.set(5,3,5);
     scene.add(pointerlight);
 
-    // varskvlavebi
+    // star
 
     const stargeometry =  new THREE.SphereGeometry(80,64,64);
 

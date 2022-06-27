@@ -1,0 +1,93 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #whoami, #whatido, #projects, #contact {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #home {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        padding: 20px 5%;
+    }
+
+
+    .nav-links {
+        text-align: center;
+    }
+
+    #whoami {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whoamidetail {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .img {
+        display: none;
+    }
+    .text {
+        width: 100%;
+    }
+
+    #whatido {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+
+    }
+    .box {
+        margin: 0;
+    }
+    .boxes {
+        height: auto;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .btn {
+        display: flex;
+    }
+
+    #projects {
+        width: 100%;
+        position: relative;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
