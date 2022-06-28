@@ -27,6 +27,7 @@
     #whoami {
         display: flex;
         flex-direction: column;
+        margin: 10px;
     }
 
     .whoamidetail {
@@ -77,21 +78,101 @@
         padding-inline: 20px;
     }
 
+    .h1 {
+        font-size: 30px;
+    }
 }
 
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    
+    #whoami, #whatido, #projects, #contact {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .img {
+        display: none;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .whoamidetail {
+        margin: 50px;
+    }
+}
+
+
+
+
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+     #whoami, #whatido, #projects, #contact {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    #contact {
+        height: 100vh;
+        margin-top: 50px;
+    }
+
+    #whoami {
+        margin: 30px;
+    } 
+    
+    .box {
+        margin: 0px;
+    }
+
+    .img {
+        display: block;
+    }
+
+    .whoamidetail {
+        margin: 50px;
+        align-items: center;
+    }
+
+    .text {
+        width: 80%;
+    }
+}
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    #whoami, #whatido, #projects, #contact {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+    #whoami, #whatido, #projects, #contact {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 50px;
+    }
+
+    .whoamidetail {
+        align-items: center;
+    }
+}
