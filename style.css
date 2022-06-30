@@ -85,7 +85,6 @@ a:hover{
 }
 
 .nav-links li a:hover {
-    color: #cccccc;
     text-decoration: underline;
 }
 
@@ -184,16 +183,15 @@ h3 {
     align-items: center;
 }
 
-.boxes:hover {
+.boxes:hover  {
     animation-duration: 3s;
-    color: aqua;
     box-shadow: 5px 10px #3cc9bb ;
 }
 
 .boxes h2 {
   margin-bottom: 10px;
-
 }
+
 
 /* projects */
 /* projects */
@@ -270,7 +268,12 @@ textarea {
     font-size: 16px;
 }
 
-#sendmessage {
+#submit {
+    padding-inline: 10px;
     width: 200px;
+    margin: 20px auto;
     font-size: 20px;
+}
+#submit:hover {
+    cursor: pointer;
 }
