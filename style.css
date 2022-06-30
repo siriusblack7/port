@@ -269,11 +269,30 @@ textarea {
 }
 
 #submit {
-    padding-inline: 10px;
+    display: flex;
+    justify-content: center;
     width: 200px;
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 18px;
+    height: 40px;
+    align-items: center;
 }
 #submit:hover {
     cursor: pointer;
 }
+
+#whoami button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 160px;
+    margin:  auto;
+    font-size: 18px;
+    padding-inline: 10px;
+    align-items: center;
+}
+#whoami a:hover  {
+    cursor: pointer;
+    text-decoration: none;
+}
+
