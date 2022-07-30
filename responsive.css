@@ -68,8 +68,8 @@
     #contact {
         display: flex;
         flex-direction: column;
-        margin-top: 80px;
-        height: 100vh;
+        margin: 100px 0px;
+        
     }
 
     #submit {
